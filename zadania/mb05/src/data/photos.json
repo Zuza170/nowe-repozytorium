@@ -1,0 +1,74 @@
+[
+  {
+    "id" : 1 ,
+    "tytuł" : " Morskie Oko o święcie " ,
+    "opis" : " Tafla jeziora w Tatrach tuż przed wschodem słońca. " ,
+    "category" : " krwawy " ,
+    "image" : " https://picsum.photos/seed/morskie-oko/600/400 " ,
+    "imageLarge" : " https://picsum.photos/seed/morskie-oko/1200/800 " ,
+    "alt" : " Tafla jezioro w Tatrach tuż przed wschodem słońca. "
+  },
+  {
+    "id" : 2 ,
+    "tytuł" : " Grań nad doliną " ,
+    "opis" : " Szlak granią w porannej mgle, widok na dolinę. " ,
+    "category" : " krwawy " ,
+    "image" : " https://picsum.photos/seed/gran-tatry/600/400 " ,
+    "imageLarge" : " https://picsum.photos/seed/gran-tatry/1200/800 " ,
+    "alt" : " Szlak granią w porannej mgle, widok na dolinę. "
+  },
+  {
+    "id" : 3 ,
+    "tytuł" : " Schronisko pod szczytem " ,
+    "description" : " Drewniane schronisko na przełęczy, koniec dnia marszu. " ,
+    "category" : " krwawy " ,
+    "image" : " https://picsum.photos/seed/schronisko/600/400 " ,
+    "imageLarge" : " https://picsum.photos/seed/schronisko/1200/800 " ,
+    "alt" : " Drewniane schronisko na przełęczy, koniec dnia marszu. "
+  },
+  {
+    "id" : 4 ,
+    "tytuł" : " Latarnia Morska " ,
+    "description" : " Biała latarnia na klifie, widziana od strony plaży. " ,
+    "category" : " morze " ,
+    "obraz" : " https://picsum.photos/seed/latarnia/600/400 " ,
+    "imageLarge" : " https://picsum.photos/seed/latarnia/1200/800 " ,
+    "alt" : " Biała latarnia na klifie, widziana od strony plaży. "
+  },
+  {
+    "id" : 5 ,
+    "tytuł" : " Fale o poranku " ,
+    "description" : " Pusta plaża i fala tuż po promieniach słońca. " ,
+    "category" : " morze " ,
+    "image" : " https://picsum.photos/seed/fale-poranek/600/400 " ,
+    "imageLarge" : " https://picsum.photos/seed/fale-poranek/1200/800 " ,
+    "alt" : " Pusta plaża i fala tuż po promieniach słońca. "
+  },
+  {
+    "id" : 6 ,
+    "title" : " Port rybacki " ,
+    "opis" : " Kutry przy nabrzeżu, sieci rozwieszone do suszenia. " ,
+    "category" : " morze " ,
+    "image" : " https://picsum.photos/seed/port-rybacki/600/400 " ,
+    "imageLarge" : " https://picsum.photos/seed/port-rybacki/1200/800 " ,
+    "alt" : " Kutry przy nabrzeżu, sieci rozwieszone do suszenia. "
+  },
+  {
+    "id" : 7 ,
+    "tytuł" : " Starówka nocna " ,
+    "description" : " Rynek w świetle latarni, długi czas naświetlania. " ,
+    "category" : " miasto " ,
+    "image" : " https://picsum.photos/seed/starowka/600/400 " ,
+    "imageLarge" : " https://picsum.photos/seed/starowka/1200/800 " ,
+    "alt" : " Rynek w świetle latarni, długi czas naświetlania. "
+  },
+  {
+    "id" : 8 ,
+    "tytuł" : " Most nad rzeką " ,
+    "opis" : " Stalowa konstrukcja mostu i panorama miasta w tle. " ,
+    "category" : " miasto " ,
+    "image" : " https://picsum.photos/seed/most-rzeka/600/400 " ,
+    "imageLarge" : " https://picsum.photos/seed/most-rzeka/1200/800 " ,
+    "alt" : " Stalowa konstrukcja mostu i panorama miasta w tle. "
+  }
+]
