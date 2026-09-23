@@ -3,7 +3,7 @@
     "id" : 1 ,
     "tytuł" : " Morskie Oko o święcie " ,
     "opis" : " Tafla jeziora w Tatrach tuż przed wschodem słońca. " ,
-    "category" : " krwawy " ,
+    "category" : " gory " ,
     "image" : " https://picsum.photos/seed/morskie-oko/600/400 " ,
     "imageLarge" : " https://picsum.photos/seed/morskie-oko/1200/800 " ,
     "alt" : " Tafla jezioro w Tatrach tuż przed wschodem słońca. "
@@ -12,7 +12,7 @@
     "id" : 2 ,
     "tytuł" : " Grań nad doliną " ,
     "opis" : " Szlak granią w porannej mgle, widok na dolinę. " ,
-    "category" : " krwawy " ,
+    "category" : " gory " ,
     "image" : " https://picsum.photos/seed/gran-tatry/600/400 " ,
     "imageLarge" : " https://picsum.photos/seed/gran-tatry/1200/800 " ,
     "alt" : " Szlak granią w porannej mgle, widok na dolinę. "
