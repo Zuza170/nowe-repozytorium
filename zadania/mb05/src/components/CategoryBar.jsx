@@ -3,6 +3,7 @@ const KATEGORIE = [
   {value: ' morze ' , label: 'Morze'},
   {value: ' miasto ', label: 'Miasto'},
 ]
+
 function CategoryBar({aktywna, onWybierz}) {
   return (
     <div id="kategorie" className="d-flex flex-wrap gap-2 mb-4">
