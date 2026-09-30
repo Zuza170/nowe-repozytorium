@@ -12,6 +12,7 @@ function App() {
   const numerKursuRef = useRef(null)
   const [szukaj, setSzukaj] = useState('')
   const [rosnaco, setRosnaco] = useState(true)
+  const[status, setStatus] = useState(null)
   const widoczne = kursy
     .map((kurs, index) => ({kurs, numer: index+1}))
     .filter(({kurs}) => 
@@ -19,6 +20,7 @@ function App() {
     .sort((a,b) => rosnaco ? a.kurs.localeCompare(b.kurs) : b.kurs.localeCompare(a.kurs))
 
  
+    
 
   function handleSubmit(event){
     event.preventDefault()
@@ -31,11 +33,14 @@ function App() {
 
     if(kurs !== undefined){
       console.log(kurs)
+      setStatus({typ: 'sukces', tresc: `${imienazwisko} zapisany(-a) na kurs: ${kurs}`})
     }
     else{
       console.log('Nieprawidłowy numer kursu')
+      setStatus({typ: 'blad', tresc: 'Nieprawidlowy numer kursu'})
     }
   }
+  
 
 
 
@@ -62,6 +67,8 @@ function App() {
         ))}
       </ol>
 
+    
+
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="imienazwisko">Imię i nazwikos:</label>
@@ -78,6 +85,12 @@ function App() {
           </button>
         </div>
       </form>
+
+        {status && (
+    <div className={`alert alert-${status.typ === 'sukces' ? 'success' : 'danger' } mt-2`}>
+      {status.tresc}
+    </div>
+  )}
     </div>
   )
     
