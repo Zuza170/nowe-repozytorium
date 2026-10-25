@@ -6,8 +6,7 @@ import Gallery from "./components/Gallery";
 import Navbar from "./components/Navbar";
 import AddPhotoModal from "./components/AddPhotoModal";
 import FiltersOffcanvas from "./components/FiltersOffCanvas";
-
-
+import ZdjecieDnia from "./components/ZdjecieDnia";
 
 
 function App() {
@@ -151,6 +150,8 @@ function App() {
         aktywna={aktywnaKategoria}
         onWybierz={setAktywnaKategoria}
       />
+
+      <ZdjecieDnia/>
     </>
   );
 }

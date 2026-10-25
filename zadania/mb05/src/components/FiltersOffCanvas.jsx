@@ -1,7 +1,7 @@
 const KATEGORIE = [
-  {value: ' gory ', label: 'Góry'},
-  {value: ' morze ' , label: 'Morze'},
-  {value: ' miasto ', label: 'Miasto'},
+  {value: 'gory', label: 'Góry'},
+  {value: 'morze' , label: 'Morze'},
+  {value: 'miasto', label: 'Miasto'},
 ]
 
 function FiltersOffcanvas({aktywna, onWybierz}) {
