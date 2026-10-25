@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import Gallery from "./components/Gallery";
 import Navbar from "./components/Navbar";
 import AddPhotoModal from "./components/AddPhotoModal";
-import FiltersOffcanvas from "./components/FiltersOffcanvas";
+import FiltersOffcanvas from "./components/FiltersOffCanvas";
 
 
 
